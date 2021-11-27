@@ -44,4 +44,7 @@ public class IntList {
         }
         return temp.first;
     }
+    public IntList addFirst(int x) {
+        return new IntList(x, this);
+    }
 }
